@@ -6,12 +6,30 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-# Node
+# Node & Build
 node_modules/
 dist/
 build/
 .next/
 out/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.db
+*.sqlite3
+
+# Test & Playwright Results
+test-results/
+playwright-report/
+blob-report/
 
 # Environment variables
 .env
@@ -25,3 +43,4 @@ out/
 Thumbs.db
 .vscode/
 .idea/
+
